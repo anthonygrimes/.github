@@ -24,6 +24,13 @@ Please follow these principles when making contributions of any kind:
 -  **Technical language**: Use simple terms where possible, try to avoid jargon, don't assume technical expertise from the reader
 -  **Inclusive language**: Use inclusive language, do not assume gender or ability level and avoid slang and idioms
 
+### AI Usage Guidelines
+
+The use of AI in the design, developement, review or in other aspects of the project is permitted. Please follow these principles when using AI:
+
+- Callout where AI was used as part of the pull request, specific details don't matter. It's enough to say "AI used for code generation", "AI used for designs", and so on
+- Attribute changes to AI. Make use of the `Co-authored-by` trailer in commit messages to denote AI usage. A model name, or just "AI" is sufficient here
+
 ### Raising an Issue
 
 Please do not raise issues for security vulnerability, instead see the repository specific details for raising security queries.
