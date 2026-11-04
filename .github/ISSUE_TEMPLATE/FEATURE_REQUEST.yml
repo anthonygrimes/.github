@@ -1,0 +1,19 @@
+name: Feature Request
+description: Request a new feature for this project.
+title: "[Feature Request]: "
+labels: ["enhancement"]
+assignees:
+  - anthonygrimes
+body:
+  - type: input
+    id: summary
+    attributes:
+      label: Feature Summary
+      description: Please provide a one line summary of the feature you would like to see.
+    validations:
+      required: true
+  - type: textarea
+    id: details
+    attributes:
+      label: Feature details
+      description: Please descibe in detail the feature you would like to see.

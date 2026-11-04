@@ -1,0 +1,40 @@
+name: Bug Report
+description: Report a bug for this project.
+title: "[Bug]: "
+labels: ["bug"]
+assignees:
+  - anthonygrimes
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out this bug report!
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: What happened and what did you expect to happen and the version you are using.
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs
+      description: If applicable, please attach any log, application data or other here.
+      render: shell
+    validations:
+      required: false
+  - type: upload
+    id: screenshots
+    attributes:
+      label: Screenshots
+      description: If applicable, please add screenshots to help explain your problem.
+    validations:
+      required: false
+  - type: textarea
+    id: system-details
+    attributes:
+      label: System details
+      description: If applicable, please provide details about the system and software you are using.
+    validations:
+      required: false
